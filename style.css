@@ -1,0 +1,48 @@
+.wrapper-bar {
+    position: relative;
+}
+
+.background-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: darkgreen;
+}
+
+.background-bar-active {
+    width: 100%;
+}
+
+.money {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(75, 75, 75);
+}
+
+.button-styles {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#upgrade-button {
+    margin-top: 30px;
+    background-color: transparent;
+    color: red;
+    letter-spacing: 0.8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    transition: all .2s ease;
+}
